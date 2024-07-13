@@ -59,3 +59,12 @@ values
 	(9, 1),
 	(10, 2),
 	(10, 3);
+    
+alter table medico
+add column em_atividade varchar(255) not null default "Sim";
+
+update medico
+set em_atividade = "Não"
+where id > 8;
+
+select * from medico;
