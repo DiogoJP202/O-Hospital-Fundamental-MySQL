@@ -57,4 +57,20 @@ Por último, crie um script SQL para a geração do banco de dados e para instru
 
 ![aasds](https://github.com/user-attachments/assets/ee1ec91b-773d-41c4-8adf-01f822c5371a)
 
+## Parte 4: 
 
+### Instruções:
+
+Pensando no banco que já foi criado para o Projeto do Hospital, realize algumas alterações nas tabelas e nos dados usando comandos de atualização e exclusão:
+- Crie um script que adicione uma coluna “em_atividade” para os médicos, indicando se ele ainda está atuando no hospital ou não. 
+- Crie um script para atualizar ao menos dois médicos como inativos e os demais em atividade.
+
+Script SQL:
+```mysql
+alter table medico
+add column em_atividade varchar(255) not null default "Sim";
+
+update medico
+set em_atividade = "Não"
+where id > 8;
+```
