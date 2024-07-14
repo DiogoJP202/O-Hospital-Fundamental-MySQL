@@ -1,6 +1,13 @@
-# O Hospital Fundamental
+# O Hospital Fundamental 🏥
 
-Um pequeno hospital local busca desenvolver um novo sistema que atenda melhor às suas necessidades. Atualmente, parte da operação ainda se apoia em planilhas e arquivos antigos, mas espera-se que esses dados sejam transferidos para o novo sistema assim que ele estiver funcional. Neste momento, é necessário analisar com cuidado as necessidades desse cliente e sugerir uma estrutura de banco de dados adequada por meio de um Diagrama Entidade-Relacionamento.
+> Quer baixar o banco de dados? Basta baixar os arquivos e seguir a ordem de execução dos códigos sql:
+> 1- SQL_HOSPITAL;
+> 2- SQL_HOSPITAL_GERAR_PACIENTES;
+> 3- SQL_HOSPITAL_GERAR_CONVENIOS;
+> 4- SQL_HOSPITAL_GERAR_MEDICOS;
+> 5- SQL_HOSPITAL_GERAR_CONSULTAS;
+> 6- SQL_HOSPITAL_GERAR_ENFERMEIROS;
+> 7- SQL_HOSPITAL_GERAR_INTERNACOES;
 
 ## Parte 1:
 
@@ -12,8 +19,6 @@ Os pacientes também precisam de cadastro, contendo dados pessoais (nome, data d
 As consultas também têm sido registradas em planilhas, com data e hora de realização, médico responsável, paciente, valor da consulta ou nome do convênio, com o número da carteira. Também é necessário indicar na consulta qual a especialidade buscada pelo paciente.
 
 Deseja-se ainda informatizar a receita do médico, de maneira que, no encerramento da consulta, ele possa registrar os medicamentos receitados, a quantidade e as instruções de uso. A partir disso, espera-se que o sistema imprima um relatório da receita ao paciente ou permita sua visualização via internet.
-
-
 
 ![Diagrama](https://github.com/DiogoJP202/O-Hospital-Fundamental/assets/102389309/be8a5a71-f18a-4e0b-8880-335c61836c2f)
 ![HospitalSQL](https://github.com/DiogoJP202/O-Hospital-Fundamental/assets/102389309/3258adcb-966e-4dc2-b827-dfef222c536e)
