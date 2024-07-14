@@ -1,6 +1,6 @@
 # O Hospital Fundamental 🏥
 
-> Quer baixar o banco de dados? Basta baixar os arquivos e seguir a ordem de execução dos códigos sql:
+> ❗ Vai baixar o banco de dados? Siga a ordem de execução dos códigos sql:
 > 
 > 1- SQL_HOSPITAL;
 > 
