@@ -1,12 +1,19 @@
 # O Hospital Fundamental 🏥
 
 > Quer baixar o banco de dados? Basta baixar os arquivos e seguir a ordem de execução dos códigos sql:
+> 
 > 1- SQL_HOSPITAL;
+> 
 > 2- SQL_HOSPITAL_GERAR_PACIENTES;
+> 
 > 3- SQL_HOSPITAL_GERAR_CONVENIOS;
+> 
 > 4- SQL_HOSPITAL_GERAR_MEDICOS;
+> 
 > 5- SQL_HOSPITAL_GERAR_CONSULTAS;
+> 
 > 6- SQL_HOSPITAL_GERAR_ENFERMEIROS;
+> 
 > 7- SQL_HOSPITAL_GERAR_INTERNACOES;
 
 ## Parte 1:
