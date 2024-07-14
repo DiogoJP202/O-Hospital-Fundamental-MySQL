@@ -27,6 +27,8 @@ As consultas também têm sido registradas em planilhas, com data e hora de real
 
 Deseja-se ainda informatizar a receita do médico, de maneira que, no encerramento da consulta, ele possa registrar os medicamentos receitados, a quantidade e as instruções de uso. A partir disso, espera-se que o sistema imprima um relatório da receita ao paciente ou permita sua visualização via internet.
 
+### Resultado:
+
 ![Diagrama](https://github.com/DiogoJP202/O-Hospital-Fundamental/assets/102389309/be8a5a71-f18a-4e0b-8880-335c61836c2f)
 ![HospitalSQL](https://github.com/DiogoJP202/O-Hospital-Fundamental/assets/102389309/3258adcb-966e-4dc2-b827-dfef222c536e)
 
@@ -39,7 +41,8 @@ Deseja-se ainda informatizar a receita do médico, de maneira que, no encerramen
 > Faça a ligação do diagrama acima ao diagrama desenvolvido na atividade antrior, construindo relacionamentos com entidades relacionadas. E eleve o seu diagrama para que já selecionando os tipos de dados que serão trabalhados e em quais situações. 
 
 Por último, crie um script SQL para a geração do banco de dados e para instruções de montagem de cada uma das entidades/tabelas presentes no diagrama completo (considerando as entidades do diagrama da atividade anterior e as novas entidades propostas no diagrama acima). Também crie tabelas para relacionamentos quando necessário. Aplique colunas e chaves primárias e estrangeiras.
-- Use ferramentas, como ERPlus, Lucidchart, draw.io (via web) e MySQL Workbench, ou mesmo um editor de imagens para o diagrama. 
+
+### Resultado:
 
 ![Diagrama logico](https://github.com/DiogoJP202/O-Hospital-Fundamental/assets/102389309/b6671fed-7613-41f8-b787-f0c056ce5365)
 
@@ -66,6 +69,8 @@ Por último, crie um script SQL para a geração do banco de dados e para instru
 - Considerando que “a princípio o hospital trabalha com apartamentos, quartos duplos e enfermaria”, inclua ao menos esses três tipos com valores diferentes.
 - Inclua dados de dez profissionais de enfermaria. Associe cada internação a ao menos dois enfermeiros.
 - Os dados de tipo de quarto, convênio e especialidade são essenciais para a operação do sistema e, portanto, devem ser povoados assim que o sistema for instalado.
+
+### Resultado:
 
 ![aasds](https://github.com/user-attachments/assets/ee1ec91b-773d-41c4-8adf-01f822c5371a)
 
