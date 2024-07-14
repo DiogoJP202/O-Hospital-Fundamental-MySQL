@@ -13,7 +13,7 @@ values
 	(8, "19133344455", 12000, "155");
 
 insert into paciente_convenio
-	(paciente_id, convenio_id)
+	(convenio_id, paciente_id)
 values
 	(1, 12),
 	(2, 3),

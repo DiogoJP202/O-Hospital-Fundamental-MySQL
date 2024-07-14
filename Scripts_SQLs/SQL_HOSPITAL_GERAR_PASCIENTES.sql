@@ -1,24 +1,5 @@
 use mydb;
 
-insert into paciente
-	(id, nome, dados_pessoais_id)
-values
-	(1, "Filipi Renan", 11),
-	(2, "Pedro orochi", 12),
-	(3, "Carlos da silva", 13),
-	(4, "Gustavo Lasaros", 14),
-	(5, "Renan Oliveira", 15),
-	(6, "Marcos soldado", 16),
-	(7, "Mariana Hellen", 17),
-	(8, "Renan João", 18),
-	(9, "Paulo Marcis", 19),
-	(10, "Amanda Flavico", 20),
-	(11, "Debora Musk", 21),
-	(12, "Fabio Junior", 22),
-	(13, "Fabricio Melan", 23),
-	(14, "Venacia Maria", 24),
-	(15, "Cradia Fenancio", 25);
-
 insert into dados_pessoais
 	(id, nascimento, endereco, telefone, email, cpf, rg)
 values
@@ -37,3 +18,22 @@ values
 	(23, "2000-01-23", "rua elias 12", "11 995994996", "emailpadrao99@gmail.com", "1111511124", "332222252"),
 	(24, "2000-03-02", "rua flavio 23", "11 996994996", "emailpadrao97@gmail.com", "1161111125", "892222262"),
 	(25, "2000-08-12", "rua joao 5", "11 993794996", "emailpadrao75@gmail.com", "11181111126", "999222227");
+
+insert into paciente
+	(id, nome, dados_pessoais_id)
+values
+	(1, "Filipi Renan", 11),
+	(2, "Pedro orochi", 12),
+	(3, "Carlos da silva", 13),
+	(4, "Gustavo Lasaros", 14),
+	(5, "Renan Oliveira", 15),
+	(6, "Marcos soldado", 16),
+	(7, "Mariana Hellen", 17),
+	(8, "Renan João", 18),
+	(9, "Paulo Marcis", 19),
+	(10, "Amanda Flavico", 20),
+	(11, "Debora Musk", 21),
+	(12, "Fabio Junior", 22),
+	(13, "Fabricio Melan", 23),
+	(14, "Venacia Maria", 24),
+	(15, "Cradia Fenancio", 25);

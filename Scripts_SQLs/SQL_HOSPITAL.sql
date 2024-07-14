@@ -38,6 +38,7 @@ CREATE TABLE IF NOT EXISTS `mydb`.`medico` (
   `id` INT NOT NULL,
   `nome` VARCHAR(255) NOT NULL,
   `tipo_profissional` VARCHAR(255) NOT NULL,
+  `crm` INT NOT NULL,
   `dados_pessoais_id` INT NOT NULL,
   PRIMARY KEY (`id`),
   INDEX `fk_medicos_dados_pessoais1_idx` (`dados_pessoais_id` ASC) ,
@@ -107,6 +108,7 @@ ENGINE = InnoDB;
 CREATE TABLE IF NOT EXISTS `mydb`.`consulta` (
   `id` INT NOT NULL,
   `data` DATE NOT NULL,
+  `especialidade` VARCHAR(255) NOT NULL,
   `valor` INT NULL,
   `convenios_id` INT NULL,
   `paciente_id` INT NOT NULL,

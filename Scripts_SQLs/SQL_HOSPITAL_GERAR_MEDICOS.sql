@@ -1,19 +1,5 @@
 use mydb;
 
-insert into medico
-	(id, nome, tipo_profissional, dados_pessoais_id)
-values
-	(1, "Douglas Barbosa", "generalista", 1),
-	(2, "Felipe Raposo", "especialista", 2),
-	(3, "Roberto Silva", "residente", 3),
-	(4, "Claudio Renan", "generalista", 4),
-	(5, "Jonas Renato", "especialista", 5),
-	(6, "Debora Neves", "generalista", 6),
-	(7, "Claudia Penanço", "residente", 7),
-	(8, "Ken Renanço", "generalista", 8),
-	(9, "Noemi Silva", "especialista", 9),
-	(10, "Helen Amanda", "residente", 10);
-
 insert into dados_pessoais
 	(id, nascimento, endereco, telefone, email, cpf, rg)
 values
@@ -27,6 +13,20 @@ values
 	(8, "2000-01-30", "rua juan 33", "11 993104996", "emailpadrao8@gmail.com", "1111411111", "222222122"),
 	(9, "2000-03-22", "rua flavio 63", "11 991394996", "emailpadrao9@gmail.com", "1151111111", "222232222"),
 	(10, "2000-02-27", "rua lenne 643", "11 912994996", "emailpadrao10@gmail.com", "1611111111", "224222222");
+
+insert into medico
+	(id, nome, tipo_profissional, crm, dados_pessoais_id)
+values
+	(1, "Douglas Barbosa", "generalista", 325, 1),
+	(2, "Felipe Raposo", "especialista", 322, 2),
+	(3, "Roberto Silva", "residente", 225, 3),
+	(4, "Claudio Renan", "generalista", 562, 4),
+	(5, "Jonas Renato", "especialista", 125, 5),
+	(6, "Debora Neves", "generalista", 15, 6),
+	(7, "Claudia Penanço", "residente", 112, 7),
+	(8, "Ken Renanço", "generalista", 22, 8),
+	(9, "Noemi Silva", "especialista", 21, 9),
+	(10, "Helen Amanda", "residente", 431, 10);
 
 insert into especialidades
 	(id, nome)
@@ -66,5 +66,3 @@ add column em_atividade varchar(255) not null default "Sim";
 update medico
 set em_atividade = "Não"
 where id > 8;
-
-select * from medico;

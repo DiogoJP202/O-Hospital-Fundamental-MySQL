@@ -1,19 +1,5 @@
 use mydb;
 
-insert into enfermeiro
-	(id, nome, cre, dados_pessoais_id)
-values 
-	(1, "Claudia Maria", "114181", 26),
-	(2, "Maria Antonia", "214121", 27),
-    (3, "Fernando Rosarie", "233181", 28),
-    (4, "Felipe Cloutino", "333181", 29),
-    (5, "Ranato Garcia ", "413481", 30),
-    (6, "Maria Fernadez", "512181", 31),
-    (7, "Fabricio Correia", "134281", 32),
-    (8, "Mellon Apple", "213122", 33),
-    (9, "Jazion Joao", "214613", 34),
-    (10, "Ana Biatriz", "616181", 35);
-    
 insert into dados_pessoais
 	(id, nascimento, endereco, telefone, email, cpf, rg)
 values 
@@ -27,3 +13,17 @@ values
 	(33, "1970-01-30", "rua juan 22", "11 993204996", "emailpadrao582@gmail.com", "1111411133", "832222122"),
 	(34, "2001-03-22", "rua flavio 56", "11 991354996", "emailpadrao692@gmail.com", "1151111133", "932232222"),
 	(35, "2000-02-27", "rua lenne 124", "11 912554996", "emailpadrao1202@gmail.com", "1611111133", "234232222");
+
+insert into enfermeiro
+	(id, nome, cre, dados_pessoais_id)
+values 
+	(1, "Claudia Maria", "114181", 26),
+	(2, "Maria Antonia", "214121", 27),
+    (3, "Fernando Rosarie", "233181", 28),
+    (4, "Felipe Cloutino", "333181", 29),
+    (5, "Ranato Garcia ", "413481", 30),
+    (6, "Maria Fernadez", "512181", 31),
+    (7, "Fabricio Correia", "134281", 32),
+    (8, "Mellon Apple", "213122", 33),
+    (9, "Jazion Joao", "214613", 34),
+    (10, "Ana Biatriz", "616181", 35);
